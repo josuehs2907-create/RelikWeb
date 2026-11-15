@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold: #c9b184;
+  --color-ink: #0a0a0b;
+  --color-coal: #111113;
+  --color-panel: #17171a;
+  --color-line: #2a2a2e;
+}
+
+html { scroll-behavior: smooth; background: #0a0a0b; }
+body { background: #0a0a0b; color: #fff; -webkit-font-smoothing: antialiased; }
+section[id] { scroll-margin-top: 72px; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { animation: none !important; transition: none !important; } }
